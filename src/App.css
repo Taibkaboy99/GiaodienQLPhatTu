@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
+    background-color: rgb(229, 223, 192);
+    min-height: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.FormSerch {
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding-bottom: 20px;
 }
-
+Button {
+    border-radius: 50px;
+}
+.FormTable1 {
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+input,
+select {
+    min-width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
+/* table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+} */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
-
+.Search {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+}
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
-
+h3 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    padding-top: 20px;
+}
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
